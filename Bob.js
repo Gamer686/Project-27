@@ -16,4 +16,7 @@ class Bob{
         ellipse(this.body.position.x,this.body.position.y,25,25);
         pop();
     }
+ 
+
+    
 }
