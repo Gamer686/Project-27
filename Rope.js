@@ -14,10 +14,10 @@ class Rope{
         var point1 = this.rope.bodyA.position;
         var point2 = this.rope.bodyB.position;
         strokeWeight(2);
-        var Anchor1X = point.x;
-        var Anchor1Y = point.y;
-        var Anchor2X = point.x + this.offSetX;
-        var Anchor2Y = point.y + this.offsetY;
+        var Anchor1X = point1.x;
+        var Anchor1Y = point1.y;
+        var Anchor2X = point2.x + this.offSetX;
+        var Anchor2Y = point2.y + this.offsetY;
         line(Anchor1X,Anchor1Y,Anchor2X,Anchor2Y);
 
     }
