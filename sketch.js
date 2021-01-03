@@ -52,7 +52,7 @@ function draw() {
  drawSprites();
  
 }
-function KeyPressed(){
+function keyPressed(){
 	if(keyCode===32){
 Matter.Body.applyForce(bob1.body,bob1.body.position,{x:-730,y:0});
 	}
